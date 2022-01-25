@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="encripta.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="encripta.js"></script>
+
+</head>
+
+<body>
+    <div class="logo"><img src="logo alura.png"></img></div>
+    <h1>Encriptador Alura Challenge Desafío 1</h1>
+    <h2>Programa Oracle ONE</h2>
+    <div display: flex align-items: flex-end>
+        <div class="columna">
+            <h4>Texto normal :</h4>
+            <div class="input-group input-group-icon">
+                <textarea name="textoNormal" id="txt1" spellcheck="false"
+                    placeholder="Pegue aquí el texto a encriptar"></textarea>
+                <div class="input-icon"><i class="fa fa-unlock-alt"></i></div>
+            </div>
+            <div style="text-align: right">
+                <button id="btnEncriptar" class="btn">Encriptar</button>
+            </div>
+            <div class="" id="notificacion">
+                <p id="info">* Solo letras minúsculas y sin acento</p>
+            </div>
+        </div>
+
+
+        <div class="columna1">
+            <h4>Texto encriptado :</h4>
+            <div class="input-group input-group-icon">
+                <textarea name="textoEncriptado" id="txt2" spellcheck="false"
+                    placeholder="Pegue aquí el texto para desencriptar"></textarea>
+                <div class="input-icon"><i class="fa fa-lock"></i></div>
+            </div>
+
+
+            <div style="text-align: left">
+                <button class="btn" id="btnDesencriptar">DesEncriptar</button>
+                <button class="btn" id="btnCopiar">copiar</button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <footer>Cristian Orihuela © 2022 <a href="https://github.com/corihuela75" target="_blank"> ver perfil en Github
+            </a></footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,178 @@
+html {
+  background-color: light-grey;
+}
+
+h1 {
+  text-align: center;
+  font-family: Tahoma, Verdana, sans-serif;
+  margin: 0em;
+}
+
+h2 {
+  text-align: center;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+h4 {
+  color: #f0a500;
+  font-size: 1.25em;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1em;
+  color: #b9b9b9;
+  background-color: #303030;
+}
+.zoom {
+  zoom: 1;
+}
+
+.columna,
+.columna1 {
+  position: relative;
+  height: 30em;
+  padding: 20px 40px 40px 40px;
+  border: 1px solid #2e344d;
+  background-color: #1c1f2f;
+  border-radius: 4.2px;
+  box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.2);
+}
+.columna {
+  width: 49%;
+  float: left;
+}
+.columna1 {
+  width: 49%;
+  float: right;
+}
+
+textarea {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1em;
+  width: 100%;
+  height: 15em;
+  padding: 1em;
+  padding-left: 3em;
+  vertical-align: top;
+  line-height: 1.4;
+  background-color: #f9f9f9;
+  border: 2px solid #e5e5e5;
+  border-radius: 5px;
+}
+/* BORDE SELECCIONADO */
+textarea:focus {
+  outline: 0;
+  border-color: #bd8200;
+}
+/* ICONO SELECCIONADO */
+textarea:focus + .input-icon i {
+  color: #f0a500;
+}
+.input-group-icon {
+  position: relative;
+}
+
+/* ICONO */
+.input-group-icon .input-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3.4em;
+  height: 3.4em;
+  line-height: 3.4em;
+  text-align: center;
+  pointer-events: none;
+}
+
+.btn {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 4px;
+  border: 2px solid #2e344d;
+  height: 3em;
+  font-size: 0.85em;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 200ms linear;
+  padding: 0 2em;
+  letter-spacing: 1px;
+  align-items: center;
+  text-align: center;
+  background-color: #1c1f2f;
+  color: #f0a500;
+  box-shadow: 0 8px 24px 0 #2e344d;
+  position: relative;
+  margin-top: 1em;
+}
+.btn:active,
+.btn:focus {
+  background-color: white;
+  color: #f0a500;
+  box-shadow: 0 8px 24px 0 rgba(16, 39, 112, 0.2);
+}
+.btn:hover {
+  background-color: #f0a500;
+  color: white;
+  box-shadow: 0 8px 24px 0 rgba(16, 39, 112, 0.2);
+}
+.btn:disabled {
+  background-color: grey;
+  color: white;
+  box-shadow: 0 8px 24px 0 rgba(16, 39, 112, 0.2);
+}
+
+/* ALURA */
+.logo {
+  position: absolute;
+  background-color: white;
+  padding: 1em;
+  left: 1.6em;
+  top: 1.6em;
+}
+
+footer {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3em;
+  width: 85%;
+  float: left;
+  /* background: #1c1f2f;
+  border: 1px solid #2e344d; */
+  margin-top: 1em;
+  padding: 1em;
+  text-align: right;
+}
+
+body {
+  font-family: "Roboto", Arial;
+}
+
+.alert {
+  width: 100%;
+  height: 3em;
+  margin-top: 1em;
+  padding: 0.75em 0.75em 0.75em 0.75em;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 2px;
+  margin-bottom: 1em;
+  font-size: 16px;
+}
+
+.alert.alert-success {
+  background-color: rgba(227, 253, 235, 1);
+  border-color: rgba(38, 179, 3, 1);
+  color: rgba(60, 118, 61, 1);
+}
+
+.alert.alert-danger {
+  background-color: rgba(248, 215, 218, 1);
+  border-color: rgba(220, 53, 69, 1);
+  color: rgba(114, 28, 36, 1);
+}
